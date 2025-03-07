@@ -1,0 +1,44 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body {
+       font-family: 'Itim', cursive;
+       background-color: #FFF9ED;
+       text-align: center;
+ }
+  
+ nav {
+    background-color: #D8572A;
+    padding: 10px 0;
+ }
+ 
+ nav ul {
+    list-style: none;
+    padding: 0;
+ }
+ 
+ nav ul li{
+    display: inline-block;
+    position: relative;
+    margin: 0 15px;
+ }
+
+ nav ul li a
+ {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    background: #D8572A;
+    border-radius: 5px;
+ }
+
+ nav ul li a:hover {
+    background-color: #780116;
+ }
+ 
